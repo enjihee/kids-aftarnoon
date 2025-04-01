@@ -1,0 +1,14 @@
+b {
+    background-color: rgb(152, 118, 183);
+    color: rgb(68, 67, 67);
+    font-family: noto;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    
+}
+@font-face {
+    font-family: noto;
+    src: url(./fonts/NotoSansWarangCiti-Regular.ttf);
+}
