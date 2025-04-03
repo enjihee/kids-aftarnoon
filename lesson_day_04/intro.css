@@ -1,0 +1,19 @@
+/* engiin uydee ingj hrgdna */
+a {
+    color: blueviolet;
+}
+/* mouse awaachhaar ungu ni uurchlugdnu */
+a:hover {
+    color: hotpink;
+}
+/* link ni daragddag bol ungu ni uurchlugdnu */
+a:visited {
+    color: rgb(106, 106, 255);
+}
+
+a:active {
+    color: aqua;
+}
+p:hover {
+    color: red;
+}
