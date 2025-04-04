@@ -1,0 +1,10 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus {
+    background-color: #c66b6b;
+}
