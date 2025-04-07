@@ -1,0 +1,30 @@
+.one {
+    width: 60px;
+    height: 20px;
+    background-color: green;
+}
+.two {
+    width: 60px;
+    height: 20px;
+    background-color: rgb(223, 173, 99);
+}
+.three {
+    width: 60px;
+    height: 20px;
+    background-color: pink;
+}
+.four {
+    width: 60px;
+    height: 20px;
+    background-color: red;
+}
+.five {
+    width: 60px;
+    height: 20px;
+    background-color: rgb(197, 85, 147);
+}
+.all {
+    display: flex;
+    gap: 5px;
+
+}

@@ -1,0 +1,20 @@
+.pink{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    align-content: center;
+}
+.mini{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 110, 132);
+    border-radius: 50%;
+    margin: auto;
+    border: 5px white solid;
+}
+body{
+    background-image: url(https://www.shutterstock.com/image-photo/digital-background-perfect-tech-processes-600nw-2496403005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
