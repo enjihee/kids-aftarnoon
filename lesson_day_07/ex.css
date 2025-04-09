@@ -1,0 +1,97 @@
+.yellow{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border: black solid 2px;
+}
+.pink{
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+    border: black solid 2px;
+}
+.orange{
+    height: 200px;
+    width: 250px;
+    background-color: orange;
+    border: black solid 2px;
+}
+.red{
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    border: black solid 2px;
+}
+.big{
+    height: 412px;
+    width: 530px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+/* ex03 */
+.green{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(189, 244, 228);
+    border: black solid 1px;
+    margin-bottom: 8px;
+}
+.blue{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(189, 223, 244);
+    border: black solid 1px;
+    margin-bottom: 8px;
+}
+.head{
+    display: flex;
+    gap: 8px;
+}
+.foot{
+    width: 308px;
+    height: 50px;
+    background-color: rgb(213, 180, 243);
+    border: black solid 1px;
+}
+.ex03{
+    border: black solid 1px;
+    padding: 8px;
+    margin-top: 10px;
+    width: 312px;
+}
+/* ex04 */
+.three{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(0, 29, 79);
+    text-align: center;
+}
+.harhuh{
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+.two{
+    width: 208px;
+    height: 50px;
+    background-color: rgb(99, 17, 40);
+    text-align: center;
+}
+.one{
+    width: 100px;
+    height: 208px;
+    background-color: rgb(234, 135, 151);
+    text-align: center;
+}
+.ex04{
+    display: flex;
+    gap: 8px;
+    border: black solid 1px;
+    padding: 8px;
+    width: 316px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+/* ex05 */
