@@ -1,0 +1,14 @@
+.bugd{
+    border: rgb(192, 192, 192) solid 1px;
+    margin: 20px;
+    width: 200px;
+}
+.bugd:hover {
+    border: black solid 1px;
+    margin: 20px;
+    width: 200px;
+}
+.flex{
+    display: flex;
+
+}
