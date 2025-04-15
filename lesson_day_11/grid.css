@@ -1,0 +1,17 @@
+.items{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(114, 61, 23);
+    align-content: center;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+body {
+    align-content: center;
+    height: 800px;
+}
