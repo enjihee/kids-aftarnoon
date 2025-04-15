@@ -14,7 +14,17 @@
     border: 1px black solid;
     margin: auto;
 }
-body{
-    display: flex;
-    
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+.items{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px black solid;
 }
