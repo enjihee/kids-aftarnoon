@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title -->
+  <title>iCoffee Shop</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./images/Logo.png" />
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="./project.css" />
+  <!-- <link rel="stylesheet" href="./css/responsive.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- ==================== Header Area (Start) ==================== -->
+  <header>
+
+    <div class="header active">
+      <!-- Logo -->
+      <a class="logo" href="./index.html">
+        <img src="images/Logo.png" alt="logo" />
+
+        <h3>iCoffee shop</h3>
+      </a>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a class="nav-btn" href="#welcome">home</a>
+
+        <!-- Dropdown Menu: About -->
+        <div class="dropdown-menu">
+          <button class="nav-btn">
+            about <i class="fas fa-angle-down"></i>
+          </button>
+          <!-- About dropdown button -->
+          <div class="dropdown-content">
+            <a href="#about">About us</a>
+            <a href="#team">Team</a>
+            <a href="#products">Products</a>
+            <a href="#menu">Menu</a>
+          </div>
+        </div>
+
+        <!-- Dropdown Menu: Blog -->
+        <div class="dropdown-menu">
+          <button class="nav-btn">
+            Blog <i class="fas fa-angle-down"></i>
+          </button>
+          <!-- Blog dropdown button -->
+          <div class="dropdown-content">
+            <a href="#">blogs grid</a>
+            <a href="#">blogs list</a>
+           <a href="#">blog single</a>
+
+          </div>
+        </div>
+
+        <!-- Dropdown Menu: Shop -->
+        <div class="dropdown-menu">
+          <button class="nav-btn">
+            Shop <i class="fas fa-angle-down"></i>
+          </button>
+          <!-- Shop dropdown button -->
+          <div class="dropdown-content">
+            <a href="#">shop grid</a>
+            <a href="#">shop list</a>
+            <a href="#">product single</a>
+            <a href="#">wishlist</a>
+            <a href="#">checkout</a>
+            <a href="#">cart</a>
+          </div>
+        </div>
+
+        <!-- Contact Link -->
+        <a class="nav-btn" href="#contact">Contact</a>
+      </nav>
+
+      <!-- Icons Container -->
+      <div class="icon-container">
+        <div id="menubar" class="icon fas fa-bars">
+
+          <!-- ===== Mobile Menu Area (Start) ===== -->
+          <div class="mobile-menu">
+            <!-- Close Icon for Mobile Menu -->
+            <div id="close-side-bar" class="fas fa-times"></div>
+
+            <!-- Nav Bar for Mobile Menu -->
+            <nav class="mobile-navbar">
+              <!-- Home Link -->
+              <div class="nav-link">
+                <a class="nav-btn" href="./index.html">Home</a>
+              </div>
+
+              <!-- Mobile Dropdown Menu: About -->
+              <div class="nav-link">
+                <div class="main-nav-link">
+                  <button class="nav-btn">
+                    <span>About</span> <i class="fas fa-plus"></i>
+                  </button>
+                  <!-- About mobile dropdown button -->
+                </div>
+                <div class="sub-nav-link">
+                  <a href="#about">About us</a>
+                  <a href="#team">Team</a>
+                  <a href="#products">Products</a>
+                  <a href="#contactus">Contacts</a>
+
+                </div>
+              </div>
+
+              <!-- Mobile Dropdown Menu: Blog -->
+              <div class="nav-link">
+                <div class="main-nav-link">
+                  <button class="nav-btn">
+                    <span>blog</span> <i class="fas fa-plus"></i>
+                  </button>
+                  <!-- Blog mobile dropdown button -->
+                </div>
+                <div class="sub-nav-link">
+                  <a href="#">blogs grid</a>
+                  <a href="#">blogs list</a>
+                  <a href="#">blog single</a>
+                </div>
+              </div>
+
+              <!-- Mobile Dropdown Menu: Shop -->
+              <div class="nav-link">
+                <div class="main-nav-link">
+                  <button class="nav-btn">
+                    <span>shop</span> <i class="fas fa-plus"></i>
+                  </button>
+                  <!-- Shop mobile dropdown button -->
+                </div>
+                <div class="sub-nav-link">
+                  <a href="#">shop grid</a>
+                  <a href="#">shop list</a>
+                  <a href="#">product single</a>
+                  <a href="#">wishlist</a>
+                  <a href="#">checkout</a>
+                  <a href="#">cart</a>
+                  <a href="#">order list</a>
+                  <a href="#">order single</a>
+                </div>
+              </div>
+
+              <!-- Contact Link -->
+              <div class="nav-link">
+                <a class="nav-btn" href="#contacts">Contact</a>
+              </div>
+            </nav>
+          </div>
+          <!-- ===== Mobile Menu Area (Ends) ===== -->
+
+        </div>
+        <a href="#" id="login" class="icon fas fa-user"></a>
+
+      </div>
+    </div>
+  </header>
+  <!-- ==================== Header Area (End) ==================== -->
+
+  <!-- ==================== Welcome Area (Start) ==================== -->
+  <section id="welcome" class="welcome">
+    <div class="content">
+      <div class="text">
+        <h1>A cup of coffee for every mood.</h1>
+        <p>We don't make your coffee. We make your day.</p>
+        <div class="btn-container">
+          <a href="#" class="btn btn1"> Меню харах </a>
+          <a href="#" class="btn btn2"> Ширээ захиалах </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Welcome Area (End) ==================== -->
+
+  <!-- ==================== About Area (Start) ==================== -->
+  <section id="about" class="about">
+    <!-- About Section Heading -->
+    <div class="heading">
+      <h2>About us</h2>
+    </div>
+
+    <div class="box-container">
+      <div class="image">
+        <img src="./img/About-Image.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h2>Coffee the way it was meant to be.</h2>
+
+        <h5>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+          voluptatibus dolores aspernatur animi perferendis iste!
+        </h5>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+          voluptatibus dolores aspernatur animi perferendis iste! Culpa aut
+          enim debitis optio illum ipsum quis perferendis dolor expedita.
+          Similique necessitatibus inventore doloremque. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Eum voluptatibus dolores
+          aspernatur animi.
+        </p>
+        <!-- Description -->
+        <a href="./pages/Contact/Contact.html" class="btn">contact us</a>
+        <!-- Button: Contact Us -->
+      </div>
+    </div>
+  </section>
+  <!-- ==================== About Area (End) ==================== -->
+
+  <!-- ==================== Services Area (Start) ==================== -->
+  <section id="services" class="services">
+    <!-- Services Section Heading -->
+    <div class="heading">
+      <h2>Our services</h2>
+    </div>
+
+    <!-- Services -->
+    <div class="box-container">
+      <!-- Service-1 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>selected coffee beans</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- Service-2 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>own roasting</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- Service-3 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>high quality</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- Service-4 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>freshly brewed</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- Service-5 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-5.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>coffee variety</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- Service-6 item -->
+      <div class="service-item">
+        <div class="image">
+          <img src="./images/Service-6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Excellent grinding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Services Area (End) ==================== -->
+
+  <!-- ==================== Menu Area (Start) ==================== -->
+  <section id="menu" class="menu">
+
+    <div class="heading">
+      <h2>Our menu</h2>
+    </div>
+
+    <div class="content">
+      <!-- Menu Category Buttons -->
+      <div class="menu-btn-tabs">
+        <button type="button" class="menu-btn btn active">
+          Coffee
+        </button>
+        <button type="button" class="menu-btn btn"">
+            Hot drinks
+        </button>
+        <button type=" button" class="menu-btn btn">
+          Desserts
+        </button>
+      </div>
+
+      <!-- Menu Items Container -->
+      <div class="box-container">
+
+        <div class="menu-gallery active" id="coffee">
+
+          <!-- Coffee Item 1 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Americano</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 2 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Cappuccino</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 3 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Macchiato</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 4 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Mocha</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 5 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Latte</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 6 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Glacier</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 7 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Black coffee</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 8 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Instant coffee</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+
+          <!-- Coffee Item 9 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Espresso</h4>
+
+              <span class="price">$20</span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+        </div>
+
+        <!-- Hot-Drinks Menu Items -->
+        <div class="menu-gallery" id="drinks">
+          <!-- Hot-Drink Item 1 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Hot Chocolate</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 2 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>White Chocolate</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 3 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Vanila Tea</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 4 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Green Tea</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 5 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>earl grey</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 6 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>lemon</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 7 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>motcha</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 8 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>black tea</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Hot-Drink Item 9 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>apple cinnamon</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <!-- Desserts Menu Items -->
+        <div class="menu-gallery" id="desserts">
+          <!-- Dessert Item 1 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Sweets</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 2 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Cupcake</h4>
+              <!-- Dessert Item 2 name -->
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 3 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Doughnut</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 4 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>Croissant</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 5 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>cheesecake</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 6 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>chocolatecake</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 7 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>applepie</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 8 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>brownie</h4>
+              <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Dessert Item 9 -->
+          <div class="menu-item">
+            <div class="intro">
+              <h4>red velvet</h4>
+             <span class="price">$20</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Menu Area (End) ==================== -->
+
+  <!-- ==================== Products Area (End) ==================== -->
+  <section id="products" class="products">
+    <!-- Products Section Heading -->
+    <div class="heading">
+      <h2>Our products</h2>
+    </div>
+
+    <!-- Products Container -->
+    <div class="box-container">
+      <!-- Product-1 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-1.jpg" alt="" />
+        <a href="#">
+          <h3>Cupcake</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-2 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-2.jpg" alt="" />
+        <a href="#">
+          <h3>Cappuccino</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-3 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-3.jpg" alt="" />
+        <a href="#">
+          <h3>Doughnut</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-4 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-4.jpg" alt="" />
+        <a href="#">
+          <h3>Latte</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-5 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-5.jpg" alt="" />
+        <a href="#">
+          <h3>chocolate cake</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-6 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-6.jpg" alt="" />
+        <a href="#">
+          <h3>hot chocolate</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-7 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-7.jpg" alt="" />
+        <a href="#">
+          <h3>Croissant</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+
+      <!-- Product-8 -->
+      <div class="product-item">
+        <div class="options">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img src="./images/Product-8.jpg" alt="" />
+        <a href="#">
+          <h3>green tea</h3>
+        </a>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">
+          <p>$12.00 <span>$15.00</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Products Area (End) ==================== -->
+
+  <!-- ==================== Team Area (Start) ==================== -->
+  <section id="team" class="team">
+    <!-- Team Section Heading -->
+    <div class="heading">
+      <h2>our team</h2>
+    </div>
+
+    <!-- Team Members -->
+    <div class="box-container">
+
+      <!-- Team Member 1 -->
+      <div class="team-item">
+        <div class="image">
+          <img src="./images/Team-1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Michael Jordan</h3>
+          <p>CEO</p>
+          <div class="social-connect">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="team-item">
+        <div class="image">
+          <img src="./images/Team-2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Amy Winehouse</h3>
+          <p>Founder</p>
+          <div class="social-connect">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="team-item">
+        <div class="image">
+          <img src="./images/Team-3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Magic Johnson</h3>
+          <p>Manager</p>
+          <div class="social-connect">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="team-item">
+        <div class="image">
+          <img src="./images/Team-4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Scarlett Johanson</h3>
+          <p>Manager</p>
+          <div class="social-connect">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Team Area (End) ==================== -->
+
+
+  <!-- ==================== Blogs Area (Start) ==================== -->
+  <section id="blog" class="blog main">
+    <!-- Blogs Section Heading -->
+    <div class="heading">
+      <h2>Our blogs</h2>
+    </div>
+
+    <div class="box-container">
+      <!-- Blog-1 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="./images/Blog-6.jpg" alt="Blog-Image-1" />
+          <span class="date">7 <br />
+            jul</span>
+        </div>
+        <div class="content">
+          <div class="details">
+            <h5 class="title"><span>Coffee</span></h5>
+            <h5 class="admin"><span>by admin</span></h5>
+          </div>
+          <a class="main-heading" href="#">How to brew coffee the right way</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <!-- Blog-2 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="./images/Blog-5.jpg" alt="Blog-Image-2" />
+          <span class="date">1 <br />
+            jul</span>
+        </div>
+        <div class="content">
+          <div class="details">
+            <h5 class="title"><span>Desserts</span></h5>
+            <h5 class="admin"><span>by admin</span></h5>
+          </div>
+          <a class="main-heading" href="#">5 things to remember when making a latte</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <!-- Blog-3 -->
+      <div class="blog-item">
+        <div class="image">
+          <img src="./images/Blog-4.jpg" alt="LatestBlog-Image-3" />
+          <span class="date">26 <br />
+            jun</span>
+        </div>
+        <div class="content">
+          <div class="details">
+            <h5 class="title"><span>Hot drinks</span></h5>
+            <h5 class="admin"><span>by admin</span></h5>
+          </div>
+          <a class="main-heading" href="#">Top 10 reasons why cold coffee is trending</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Blogs Area (End) ==================== -->
+
+  <!-- ==================== Contact Area (Start) ==================== -->
+  <section class="contact" id="contact">
+
+    <div class="box-container">
+
+      <!-- ========== Contact Form (Start) ========== -->
+      <form method="post" class="contact-form form" id="contact-form">
+
+        <h3>Get in touch</h3>
+        <input type="text" name="name" class="box" id="name" placeholder="name" required="">
+        <input type="email" name="email" class="box" id="email" placeholder="email" required="">
+        <input type="text" name="subject" class="box" id="subject" placeholder="subject" required="">
+        <textarea cols="30" rows="10" name="comment" class="box" id="comment" placeholder="message"
+          required=""></textarea>
+        <button type="submit" class="btn" name="submit" id="submit">submit</button>
+
+
+        <span class="alert" id="msg"></span>
+
+      </form>
+      <!-- ========== Contact Form (End) ========== -->
+
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.8588810055912!2d106.90463550885721!3d47.92249830282369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969366c8b6b9a7%3A0x46313f3d850bf7cc!2sMN%20Tower%20Mongolia!5e0!3m2!1sen!2smn!4v1693650538581!5m2!1sen!2smn" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <div class="contact-info">
+
+      <!-- Phone Number -->
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <h3>Холбоо барих</h3>
+        <p>+976-99112233</p>
+        <p>+976-88112233</p>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="info-item">
+        <i class="fas fa-clock"></i>
+        <h3>Цагийн хуваарь</h3>
+        <p>Да - Ба : 8.00 - 18.00</p>
+        <p>Бя - Ня : 10.00 - 20.00</p>
+      </div>
+
+      <!-- Email -->
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p class="gmail">icode@cafe.com</p>
+        <p class="gmail">info@cafe.com</p>
+
+      </div>
+
+      <!-- Address -->
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Хаяг</h3>
+        <p>MN Tower, Chingeltei district</p>
+        <p>Ulaanbaatar, Mongolia</p>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- ==================== Contact Area (End) ==================== -->
+
+  <!-- ==================== Footer Area (Start) ==================== -->
+  <footer class="footer">
+    <div class="box-container">
+      <div class="footer-item">
+        <a class="logo" href="./index.html">
+          <img src="./images/Logo.png" alt="logo" />
+          <h3>iCoffee shop</h3>
+        </a>
+        <p>
+          Манай кофе шопд бид зөвхөн кофегоор үйлчилдэггүй. Бидний зорилго бол
+          зүгээр л кофегоо бэлтгэх биш, харин таны энэ өдрийн мүүдийг тогтоох
+          юм. Бидний уриа бол кофе нь зүгээр л нэг уух зүйл биш - энэ бол
+          амьдралын хэв маяг юм. Таныг бидэнтэй нэгдэж, төгс урлагийн ур
+          чадвар, баяр баясгаланг мэдрэхийг урьж байна.
+        </p>
+
+        <!-- Social Links -->
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-item">
+        <h2>Quick links</h2>
+
+        <!-- Quick Links -->
+        <div class="info links pages">
+          <div class="links-item">
+            <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+            <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
+            <a href="#team"><i class="fas fa-arrow-right"></i>team</a>
+            <a href="#products"><i class="fas fa-arrow-right"></i>products</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>FAQs</a>
+            <a href="#menu"><i class="fas fa-arrow-right"></i>menu</a>
+          </div>
+          <div class="links-item">
+            <a href="#"><i class="fas fa-arrow-right"></i>gallery</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>reservation</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>blog</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>shop</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>contact</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Item 3: Contact Information -->
+      <div class="footer-item">
+        <h2>Contact info</h2>
+
+        <!-- Contact Information -->
+        <div class="info">
+          <p><i class="fas fa-phone"></i><span>+976-111-222</span></p>
+          <p><i class="fas fa-phone"></i><span>+976-123-456</span></p>
+          <p><i class="fas fa-envelope"></i><span class="gmail">icode@cafe.com</span></p>
+          <p><i class="fas fa-map-marker-alt"></i><span>Ulaanbaatar, Mongolia</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>Developed by <span>iCode</span> | &copy; 2023 iCoffee Shop | All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- ==================== Footer Area (End) ==================== -->
+</body>
+
+</html>
